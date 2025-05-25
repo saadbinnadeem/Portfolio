@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 12rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+ margin-top: 12rem;
+  align-items: center;
+  item-center: center;
+  justify-content: center;
 
   .hard-skills{
     margin-top: 1.6rem;
@@ -29,6 +29,7 @@ export const Container = styled.section`
     // border-bottom: 0.2rem solid var(--blue);
     font-size :3rem;
     margin-top: 0rem;
+    align-items: center;
     color: var(--green);
   }
 

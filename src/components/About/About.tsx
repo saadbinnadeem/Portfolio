@@ -1,15 +1,4 @@
 import { Container } from "./styles";
-import saadbinnadeem from "../../assets/saadbinnadeem.png";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -22,19 +11,23 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hi there! I'm Saad, Software Engineer also a website developer with a passion for creating custom online experiences for my clients. With a skill set including C, JAVA, PYTHON, HTML, CSS, JavaScript, Flutter and React, I have the tools to bring any App & website vision to life.
+            Hi there! I'm Saad — a passionate Software Engineer specializing in building scalable, high-performance applications and websites. My expertise spans across modern technologies including C#, Python, Node.js, React.js, Next.js, and Flutter. I’m driven by innovation and committed to delivering impactful digital solutions tailored to client needs.
           </p>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress making it easy for my clients to take control of their own websites and keep them up to date.</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-          So if you're in need of a new website or Sofware and App just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website and App dreams to reality together!</p> 
+            In addition to frontend and backend development, I work on AI-powered applications and SaaS platforms, enabling smart, automated, and intuitive user experiences. I thrive in building not just software, but smart solutions that adapt, learn, and scale.
+          </p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+          <p>
+            Whether you're starting from scratch or looking to elevate your existing product, I’d love to collaborate. Let's turn your software and app ideas into powerful digital products that truly make an impact.
+          </p>
+        </ScrollAnimation>
+
+        {/* <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -86,12 +79,7 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
-        </div>
-      </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={saadbinnadeem} alt="Muhammad Saad Bin Nadeem" />
-        </ScrollAnimation>
+        </div> */}
       </div>
     </Container>
   )

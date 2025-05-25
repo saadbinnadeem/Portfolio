@@ -16,7 +16,7 @@ export function Footer() {
       </a>
       <div>
         <p>
-          All Copyright © Reserved by Saad Bin Nadeem ❤️<img src={reactIcon} alt="React" />
+          All Copyright © Reserved by Saad Bin Nadeem ❤️
           {/* <span>❤️</span> */}
         </p>
       </div>
@@ -57,7 +57,7 @@ export function Footer() {
         >
           <img src={instagramIcon} alt="Instagram" />
         </a>
-     
+
       </div>
     </Container>
   )

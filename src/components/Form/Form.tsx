@@ -51,7 +51,11 @@ export function Form() {
   return (
     <Container>
       <h2>Get in touch using the form</h2>
-      <form onSubmit={handleSubmit}>
+      <form action='https://formsubmit.co/saadbinnadeem6@gmail.com'
+        method='POST'>
+
+        {/* Disable CAPTCHA */}
+        <input type="hidden" name="_captcha" value="false" />
         <input
           placeholder="Email"
           id="email"

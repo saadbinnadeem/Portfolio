@@ -10,9 +10,9 @@ export function Project() {
       <h2>Project Contributions</h2>
       <div className="projects">
 
-  
 
-      <ScrollAnimation animateIn="flipInX">
+
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -25,7 +25,7 @@ export function Project() {
             <div className="body">
               <h3>Zong - GMLC</h3>
               <p>
-              GMLC (Gateway Mobile Location Center) is a telecom node that provides the functionality required to support location-based services (LBS). A single Public Land Mobile Network (PLMN) can have multiple GMLCs. This functionality is integrated in 2G and 3G through SIGTRAN and through DIAMETER in 4G and LTE networks.
+                GMLC (Gateway Mobile Location Center) is a telecom node that provides the functionality required to support location-based services (LBS). A single Public Land Mobile Network (PLMN) can have multiple GMLCs. This functionality is integrated in 2G and 3G through SIGTRAN and through DIAMETER in 4G and LTE networks.
               </p>
             </div>
             <footer>
@@ -49,7 +49,7 @@ export function Project() {
             <div className="body">
               <h3>Talk 2 Document</h3>
               <p>
-              This website is Based on Ask Questions About Provided Documents Also Have Another Option Chat Option To User Ask General Questions.
+                This website is Based on Ask Questions About Provided Documents Also Have Another Option Chat Option To User Ask General Questions.
               </p>
             </div>
             <footer>
@@ -74,7 +74,7 @@ export function Project() {
             <div className="body">
               <h3>Bank D</h3>
               <p>
-              Bank D is Flutter Base Andriod & IOS App To Help The User To Manage Our Bank Accounts In Easily , Smartly & Securely Also in App Have Bank Discount Vouchers To Maximize Your Reward. Also Have a Modern Login System With Fingerprint and 4-Digit Pin System.
+                Bank D is Flutter Base Andriod & IOS App To Help The User To Manage Our Bank Accounts In Easily , Smartly & Securely Also in App Have Bank Discount Vouchers To Maximize Your Reward. Also Have a Modern Login System With Fingerprint and 4-Digit Pin System.
               </p>
             </div>
             <footer>
@@ -86,12 +86,15 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-     
 
-        {/* <ScrollAnimation animateIn="flipInX">
+
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
               <div className="project-links">
                 <a href="https://www.smartcornersproperties.com/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
@@ -99,44 +102,60 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>SmartCorners - Real Estate Properties Site</h3>
+              <h3>Maritime ERP – Purchasing Module</h3>
               <p>
-              This real estate site displays land properties and helps buyers and sellers. Buyers can see lots of pictures, videos, and details about properties before visiting in person. It makes it easier for buyers to find what they want and helps sellers get more attention.
+                I’m currently working on the Maritime ERP system, specifically focusing on the Purchasing Module. This module streamlines procurement processes for maritime operations, handling requisitions, supplier management, and order tracking efficiently. The system enhances decision-making and operational transparency by integrating AI agents for smart procurement assistance and automation.
+                <br /><br />
+                The technology stack for this project includes <strong>Next.js</strong> for the frontend, <strong>C#</strong> for backend APIs and services, and advanced <strong>AI integrations</strong> to optimize user experience and system intelligence.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>               
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> 
+                <li>Next JS</li>
+                <li>Typescript</li>
 
-         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://drrohitdamor.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
-              <p>
-              This website allows people to easily book appointments with you online. It takes just a minute to schedule a meeting. This kind of site is helpful for booking appointments and not missing any potential clients. You should try this website to see how convenient and efficient it is.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
+                <li>C#</li>
+                <li>AI Agents</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
+
         <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a href="https://boldtravelservices.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Bold Travelers – Tour Package Website</h3>
+              <p>
+                We developed the Bold Travelers website, a dynamic platform designed to showcase and manage travel packages effectively. The site is integrated with <strong>Firebase Firestore</strong>, allowing real-time updates and scalable data storage for package listings.
+                <br /><br />
+                Users can explore various travel packages with detailed descriptions, images, and pricing. The Firebase integration ensures seamless content management, making it easy for the admin to add or update packages on the go.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Next JS</li>
+                <li>Typescript</li>
+
+                <li>Firebase Firestore</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+
+        {/*  <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -210,7 +229,7 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>*/}
-       
+
 
       </div>
     </Container>

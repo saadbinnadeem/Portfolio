@@ -1,15 +1,26 @@
 import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import CV from '../../assets/CV_SaadBinNadeem_2023.pdf'
+import { Moon, Sun } from 'lucide-react';
+
 export function Header() {
   const [isActive, setActive] = useState(false)
+  const [isLightTheme, setIsLightTheme] = useState(false)
+
+  useEffect(() => {
+    const html = document.documentElement
+    if (isLightTheme) {
+      html.classList.add('light')
+    } else {
+      html.classList.remove('light')
+    }
+  }, [isLightTheme])
 
   function toggleTheme() {
-    let html = document.getElementsByTagName('html')[0]
-    html.classList.toggle('light')
+    setIsLightTheme(prev => !prev)
   }
 
   function closeMenu() {
@@ -22,15 +33,6 @@ export function Header() {
         <HashLink smooth to="#home" className="logo">
           <span>Muhammad Saad Bin Nadeem</span>
         </HashLink>
-
-        <input
-          onChange={toggleTheme}
-          className="container_toggle"
-          type="checkbox"
-          id="switch"
-          name="mode"
-        />
-        <label htmlFor="switch">Toggle</label>
 
         <nav className={isActive ? 'active' : ''}>
           <NavHashLink smooth to="#home" onClick={closeMenu}>
@@ -48,6 +50,30 @@ export function Header() {
           <a href={CV} download className="button">
             CV
           </a>
+
+          {/* Theme toggle button with SVG icons */}
+          <button
+            onClick={toggleTheme}
+            aria-label="Toggle light/dark theme"
+            style={{
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              marginLeft: '1rem',
+              padding: 0,
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            {isLightTheme ? (
+              // Sun icon for light mode with black color
+              <Sun style={{ color: 'black' }} />
+            ) : (
+              // Moon icon for dark mode with default color (or specify one)
+              <Moon />
+            )}
+          </button>
+
         </nav>
 
         <div
@@ -55,9 +81,7 @@ export function Header() {
           aria-haspopup="true"
           aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
           className={isActive ? 'menu active' : 'menu'}
-          onClick={() => {
-            setActive(!isActive)
-          }}
+          onClick={() => setActive(!isActive)}
         ></div>
       </Router>
     </Container>
