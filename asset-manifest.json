@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e016d95c.css",
+    "main.js": "/Portfolio/static/js/main.b278252b.js",
+    "static/media/Hello.gif": "/Portfolio/static/media/Hello.d93720933c608f6178fb.gif",
+    "static/media/CV_SaadBinNadeem_2023.pdf": "/Portfolio/static/media/CV_SaadBinNadeem_2023.34b1f9a4ab48b8893d84.pdf",
+    "static/media/illustration.svg": "/Portfolio/static/media/illustration.b772c506c731998249984c15b0609877.svg",
+    "static/media/whatsapp.svg": "/Portfolio/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/telegram.svg": "/Portfolio/static/media/telegram.45bf2371ee6528cc27d66c08f8e43356.svg",
+    "static/media/instagram.svg": "/Portfolio/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
+    "static/media/phone-icon.svg": "/Portfolio/static/media/phone-icon.91617f27ac814ef5f29b533ab3d256ec.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
+    "static/media/email-icon.svg": "/Portfolio/static/media/email-icon.a83578f914460e952501546655b76165.svg",
+    "static/media/external-link.svg": "/Portfolio/static/media/external-link.74ce2401d684101cc83125c6dac8ce9c.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
+    "main.e016d95c.css.map": "/Portfolio/static/css/main.e016d95c.css.map",
+    "main.b278252b.js.map": "/Portfolio/static/js/main.b278252b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e016d95c.css",
+    "static/js/main.b278252b.js"
+  ]
+}
